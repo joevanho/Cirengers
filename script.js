@@ -40,10 +40,10 @@ navbar.classList.toggle('active');
 };
 
 // Klik di luar elemen
-const hm = document.querySelector('#menu-icon');
+// const hm = document.querySelector('#menu-icon');
 
-document.addEventListener('click', function (e) {
-  if (!hm.contains(e.target) && !navbar.contains(e.target)) {
-    navbar.classList.remove('active');
-  }
-});
+// document.addEventListener('click', function (e) {
+//   if (!hm.contains(e.target) && !navbar.contains(e.target)) {
+//     navbar.classList.remove('active');
+//   }
+// });
