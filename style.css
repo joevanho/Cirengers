@@ -14,7 +14,7 @@
   --dark-color: #252525;
   --primary-color: #3b141c;
   --secondary-color: #f3961c;
-  --light-pink-color: #faf4f5;
+  --light-pink-color: #efe9e1;
   --medium-gray-color: #ccc;
 
   /* font size */
@@ -387,7 +387,7 @@ iframe {
 
 /* Footer */
 footer {
-  background: var(primary-color);
+  background: var(--primary-color);
   color: var(--white-color) ;
   text-align: center;
   padding: 20px 0;
