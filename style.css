@@ -267,7 +267,7 @@ header.scrolled #menu-icon {
 .menu-section {
   padding: 50px 0 100px;
   color: var(--white-color);
-  background: var(--dark-color);
+  background: var(--primary-color);
 }
 
 .menu-section .menu-list {
@@ -387,7 +387,7 @@ iframe {
 
 /* Footer */
 footer {
-  background: #333;
+  background: var(primary-color);
   color: var(--white-color) ;
   text-align: center;
   padding: 20px 0;
